@@ -23,4 +23,4 @@ before_script:
 install:
   - npm install
 script:
-  - ENV=AsosCom npm run e2e:chrome
+  - ENV=AsosCom npm run e2e:firefox:headless

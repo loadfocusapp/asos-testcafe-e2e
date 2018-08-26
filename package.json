@@ -15,7 +15,9 @@
     "e2e:chrome": "npm run clean -- report/resChrome.xml && testcafe -c 1 chrome test -S -s screenshots -e  -r list,xunit:report/resChrome.xml --selector-timeout $npm_package_config_selector_timeout --assertion-timeout $npm_package_config_assertion_timeout --page-load-timeout $npm_package_config_page_load_timeout",
     "e2e:firefox": "npm run clean -- report/resFirefox.xml && testcafe -c 1 firefox test -S -s screenshots -e  -r list,xunit:report/resFirefox.xml --selector-timeout $npm_package_config_selector_timeout --assertion-timeout $npm_package_config_assertion_timeout --page-load-timeout $npm_package_config_page_load_timeout",
     "e2e:safari": "npm run clean -- report/resSafari.xml && testcafe -c 1 safari test -S -s screenshots -e  -r list,xunit:report/resSafari.xml --selector-timeout $npm_package_config_selector_timeout --assertion-timeout $npm_package_config_assertion_timeout --page-load-timeout $npm_package_config_page_load_timeout"
-  },
+ "e2e:chrome:headless": "npm run clean -- report/resChrome.xml && testcafe -c 1 chrome:headless test -S -s screenshots -e  -r list,xunit:report/resChrome.xml --selector-timeout $npm_package_config_selector_timeout --assertion-timeout $npm_package_config_assertion_timeout --page-load-timeout $npm_package_config_page_load_timeout",
+"e2e:firefox:headless": "npm run clean -- report/resFirefox.xml && testcafe -c 1 firefox:headless test -S -s screenshots -e  -r list,xunit:report/resFirefox.xml --selector-timeout $npm_package_config_selector_timeout --assertion-timeout $npm_package_config_assertion_timeout --page-load-timeout $npm_package_config_page_load_timeout" 
+ },
   "devDependencies": {
     "eslint": "^5.0.1",
     "eslint-plugin-testcafe": "^0.2.1",

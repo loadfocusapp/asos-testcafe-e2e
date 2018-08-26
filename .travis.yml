@@ -22,3 +22,5 @@ before_script:
   - fluxbox >/dev/null 2>&1 &
 install:
   - npm install
+script:
+  - ENV=AsosCom npm run e2e:chrome

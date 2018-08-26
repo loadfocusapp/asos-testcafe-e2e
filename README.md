@@ -1,5 +1,5 @@
-## Building the e2e tests for Asos
-
+## Building the e2e tests for Asos 
+[![Build Status](https://travis-ci.org/loadfocusapp/asos-testcafe-e2e.svg?branch=master)](https://travis-ci.org/loadfocusapp/asos-testcafe-e2e)
 
 ```npm i```
 
